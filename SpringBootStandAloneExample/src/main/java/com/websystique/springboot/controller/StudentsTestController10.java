@@ -29,7 +29,7 @@ public class StudentsTestController10 {
 		Connection c = null;
 		try
 		{
-			System.out.println("ok");
+			System.out.println("ok------------------------------------------------check");
 			Class.forName("org.postgresql.Driver");
 			c = DriverManager.getConnection("jdbc:postgresql://10.10.10.20:5432/test", "postgres", "postgres");
 			c.setAutoCommit(false);
